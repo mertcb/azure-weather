@@ -1,0 +1,37 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1000px;
+}
+
+fieldset{
+    border: 0px;
+    padding: 30px;
+}
+
+.input, p{
+    width: 100%;
+    font-size: 30px;
+    border: 0px;
+    outline: 0px;
+    padding: 10px 15px;
+    margin: 30px 0px;
+}
+
+.button{
+    border: 2px;
+    padding: 10px 30px;
+    width: 100%;
+    transition: all 0.1s ease-in-out;
+}
+
+.button:hover{
+    border: 2px solid #0000ff;
+}
+
+p{
+    color: #e95510;
+}

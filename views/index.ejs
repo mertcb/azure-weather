@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Hava Durumu Uygulaması</title>
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <form action="/" method="post">
+                <input type="text" name="city" class="input" placeholder="Bir Şehir Giriniz">
+                <input type="submit" value="Hava Durumunu Al" class="button">
+                <% if(weather !== null) { %>
+                <p>Hava <%= weather.name %> şehrinde <%= weather.main.temp %> derece</p>
+                <p>Hava <%= weather.name %> şehrinde <%= weather.weather[0].description %></p>
+                <% } %>
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
