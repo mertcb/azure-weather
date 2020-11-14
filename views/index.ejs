@@ -13,6 +13,8 @@
                 <input type="submit" value="Hava Durumunu Al" class="button">
                 <% if(weather !== null) { %>
                 <p>Hava <%= weather.name %> şehrinde <%= weather.main.temp %> derece</p>
+                <p>Hava minimum <%= weather.main.temp_min %> derece</p>
+                <p>Hava maksimum <%= weather.main.temp_max %> derece</p>
                 <p>Hava <%= weather.name %> şehrinde <%= weather.weather[0].description %></p>
                 <% } %>
             </form>
