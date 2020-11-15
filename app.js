@@ -6,7 +6,7 @@ const { response } = require("express");
 const app = express();
 var server;
 
-const apiKey = "8116be7751adafe0c1f2d31a48becc05";
+const apiKey = "8116be7751adafe0c1f2d31a48becc05"; // revoked, change your API KEY
 
 app.set("view engine", "ejs");
 app.use(express.static("public"))
